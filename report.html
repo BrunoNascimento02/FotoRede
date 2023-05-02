@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 690px)" href="Estilos/report.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="icone/atencao.png" width="50" alt="">
+        </picture>
+        <div class="menu" id="idmenuzinho">
+            <ul>
+                <li><a href="inicial.html"><img src="icone/voltar1.png" alt=""></a></li>
+                <li><a href="feed.html"><img src="icone/buscar1.png" alt="">
+                </a></li>
+                <li><a href="report.html"><img src="icone/sobre.png" alt=""></a></li>
+                <li><a href="perfil.html"><img src="icone/perfil1.png" alt=""></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        Denunciar um Usuário
+        <div class="menuclick" onclick="menuh()">
+        </div>
+        <div>
+            <form action="form.php">
+                <label for="idnome"></label>
+                <input type="text" name="nome" id="idnome" placeholder="Quem voce quer denunciar?" required>
+                <br>
+                <br>
+                <label for="iddenuncia"></label>
+                <input type="text" name="denuncia" id="iddenuncia" placeholder="Qual o tipo de denuncia?" required>
+                <br>
+                <br>
+                <label for="idinstagram"></label>
+                <input type="text" name="instagram" id="idinstagram" placeholder="Informe o instagram da pessoa" required>
+                <br>
+                <br>
+                <label for="idseunome"></label>
+                <input type="text" name="seunome" id="idseunome" placeholder="Qual seu nome?" required>
+                <br>
+                <br>
+                <div>
+                    <label for="idinforme"></label>
+                    <input type="text" name="informe" id="idinforme" required placeholder="Informe o ocorrido">
+                </div>
+                <br><br>
+                <div><div><input type="submit" value="Enviar"> <input type="reset" value="Apagar"></div></div>
+            </form>
+        </div>
+    
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

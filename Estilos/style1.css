@@ -1,0 +1,115 @@
+:root{
+    --cor-1: #706863;
+    --cor-2: #F2B78D;
+    --cor-3: #F0DFD3;
+    --cor-4: #705541;
+    --cor-5: #BDAFA6;
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color:var(--cor-3);
+}
+
+body{
+    position: absolute;
+    text-align: center;
+    background-image:linear-gradient(to left bottom, var(--cor-2), var(--cor-4));
+    width: 930px;
+    height: 500px;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+    box-shadow: 2px 2px 20px black;
+
+    filter: blur(0.5px);
+
+}
+
+body > header > h1{
+    padding: 30px 0px;
+}
+
+.menuzinho{
+    font-size: 2em;
+    text-align: end;
+}
+
+.container{
+    padding: 20px 0px;
+}
+
+body > div > ul{
+    list-style: none;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.192);
+    padding: 10px 0px;
+}
+
+body > div > ul > li{
+    display: inline;
+}
+
+body > div > ul > li > a {
+    text-decoration: none;
+    color:white;
+    background-color: rgba(214, 196, 196, 0.13);
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+form{
+    padding: 50px 0px;
+}
+form > div {
+    padding: 10px;
+}
+
+form > div > input {
+    font-size: 1.0em;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+}
+
+form > div > input::-webkit-input-placeholder{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+}
+
+form > div > nav {
+    padding: 10px;
+    text-align: center;
+}
+
+form > div > nav > a {
+    display: block;
+    color: var(--cor-4);
+    padding: 14px;
+    text-decoration: none;
+}
+
+form > div > nav > .entrar{
+    background-color: var(--cor-5);
+    border-radius: 10px;
+    transition: .2s;
+    width: 40px;
+    margin: auto;
+}
+
+form > div > nav > .entrar:hover{
+    color: white;
+    transition: 1s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.342);
+}

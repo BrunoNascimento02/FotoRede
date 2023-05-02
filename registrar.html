@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 690px)" href="Estilos/registrar.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>FotoREDE</h1>
+    </header>
+    <main>
+        <br>
+        <form action="registrar.php" method="post">
+            <div>
+                <h4>Preencha todos os requisitos para registrar-se</h4>
+            </div>
+            <br>
+            <div class="preencher"> 
+                <label for="idnome"></label>
+                <input type="text" name="nome" id="idnome" placeholder="Digite seu nome completo" required>
+            </div>
+            <br>
+            <div class="preencher">
+                <label for="idpass"></label>
+                <input type="password" name="pass" id="idpass" placeholder="Digite sua Senha" required>
+            </div>
+            <br>
+            <div class="preencher">
+                <label for="idpassconfir"></label>
+                <input type="password" name="passconfir" id="idpassconfir" placeholder="Confirme Sua Senha" required>
+            </div>
+            <br>
+            <div class="preencher">
+                <label for="idemail"></label>
+                <input type="email" name="email" id="idemail" placeholder="Qual Seu Email" required>
+            </div>
+            <br>
+            <div class="preencher">
+                <label for="idinstagram"></label>
+                <input type="text" name="intagram" id="idinstagram" placeholder="Qual seu instagram ?" required>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="idconfirmação"></label>
+                    <input type="checkbox" name="confirmação" id="idconfirmação">  Ao clicar voce aceita os <a href="#">Termos e condições</a> para se registrar
+                </div>
+            </div>
+            <br>
+            <div class="submit">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </div>
+        </form>
+        <br>
+        <div>
+            <a href="index.html">Voltar</a>
+        </div>
+    </main>
+</body>
+</html>

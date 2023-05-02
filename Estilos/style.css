@@ -1,0 +1,124 @@
+:root{
+    --cor-1: #898989;
+    --cor-2: #F2B78D;
+    --cor-3: #ddc796;
+    --cor-4: #2b2b2b;
+    --cor-5: #8B1535;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: rgb(65, 60, 60);
+}
+
+header > img {
+    width: 330px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+body{
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 330px;
+    height: 600px;
+    border-radius: 20px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: black;
+}
+
+.menuzinho{
+    font-size: 2em;
+    text-align: end;
+}
+
+.container{
+    padding: 20px 0px;
+}
+
+body > div > ul{
+    list-style: none;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.192);
+    padding: 10px 0px;
+}
+
+body > div > ul > li{
+    display: inline;
+}
+
+body > div > ul > li > a {
+    text-decoration: none;
+    color:white;
+    background-color: rgba(214, 196, 196, 0.13);
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+main > section > article > h1{
+    font-size: .9em;
+    padding: 5px;
+}
+
+main > div > h1 {
+    font-size: 1.1em;
+}
+
+form{
+    padding: 10px 0px;
+}
+
+form > div {
+    padding: 7px;
+}
+
+form > div > input {
+    font-size: 1.1em;
+    border-radius: 10px;
+    height: 30px;
+    width: 230px;
+}
+
+form > div > input::-webkit-input-placeholder{
+    text-align: center;
+    color: rgb(51, 51, 53);
+    border-radius: 10px;
+}
+
+form > div > nav > a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 7px;
+    text-decoration: none;
+}
+
+form > div > nav > .entrar{
+    background-color: rgb(128, 116, 116);
+    border-radius: 10px;
+    transition: .2s;
+    width: 40px;
+    margin: auto;
+    color: white;
+}
+
+form > div > nav > .entrar:hover{
+    color: white;
+    transition: .5s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.342);
+    padding: 10px;
+}
+
+footer{
+    font-size: 0.7em;
+}

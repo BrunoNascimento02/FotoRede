@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 690px)" href="Estilos/esqueci.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Recuperar Login</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h3>Preencha todos os campos abaixo para recuperar sua senha</h3>
+            <div class="produto">
+                <form action="recuperar.php" method="post">
+                    <div>
+                        <label for="idnome"></label>
+                        <input type="text" name="nome" id="idnome" placeholder="digite seu nome completo" required>
+                    </div>
+
+                    <div>
+                        <label for="idemail"></label>
+                        <input type="email" name="email" id="idemail" placeholder="email completo" required>
+                    </div>
+                    <div>
+                        
+                        <label for="idnascimento"></label>
+                        <input type="text" name="nascimento" id="idnascimento" placeholder="data de nascimento" required>
+                    </div>
+                    <div>
+                        <label for="idcpf"></label>
+                        <input type="text" name="cpf" id="idcpf" placeholder="CPF sem ponto">
+                    </div>
+
+                    <br>
+
+                    <input type="submit" value="Enviar">
+                    <a href="index.html">Voltar</a>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

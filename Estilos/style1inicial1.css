@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: rgba(0, 0, 255, 0.568);
+}
+
+body{
+    position: absolute;
+    text-align: center;
+    background-image:linear-gradient(to left bottom, red, blue);
+    width: 930px;
+    height: 640px;
+    border-radius: 20px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+    
+    transition: 1s;
+}
+
+body > header > h1{
+    padding: 20px 0px;
+}
+
+.menuclick{
+    display: none;
+    font-size: 3em;
+    text-align: end;
+    cursor: pointer;
+}
+.menu{
+    display: block; /* Deixar em None para funcionar com o Java script*/
+}
+.menu > ul {
+    padding: 20px 0px;
+    background-color: rgb(248, 246, 248);
+    position: absolute;
+    top: 11%;
+    left: 0%;
+    width: 100%;
+}
+
+.menu > ul > li{
+    list-style: none;
+    padding: 40px;
+    display: inline;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    background-color: rgb(252, 248, 251);
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.menu > ul > li > a:hover {
+    background-color: rgb(138, 141, 150);
+    color: white;
+    transition: .5s;
+}
+
+.container{
+    padding: 62px 0px;
+    height: 436px;
+    background-image: linear-gradient(to left bottom
+    ,  red,blue,red);
+    border-radius:20px;
+}
+
+.container > .conteudo{
+    height: 480px;
+    width: 920px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.container >.conteudo::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.container > .conteudo > .produto {
+    width: 310px;
+    border-radius: 20px;
+    height: 100px;
+    margin: auto;
+    color: rgb(250, 246, 246);
+}
+
+.container >.conteudo >.produto > a{
+    text-decoration: none;
+    color: rgb(145, 11, 255);
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(235, 229, 229);
+}
+
+.container > .conteudo > .produto:hover{
+    background-color: rgba(71, 71, 77, 0.336);
+    transition: .5s;
+}
